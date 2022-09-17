@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 20px;
+   color: white;
+   background-color: black;
+   position: sticky;
+}
+
+.charity{
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;    
+}
+
+ul li{
+    color: white;
+    padding: 0 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+}
+
+nav button{
+   padding: 15px; 
+   border: none;
+   border-radius: 20px;
+   background-color: yellow;
+   color: black;
+}
+
+.text-content{
+    background-image: url(images/NGO\ bg\ image\ 2.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text-content h2{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.text-content p{
+    color: white;
+    line-height: 2;
+    padding: 20px;
+}
+
+.text-content button{
+   padding: 15px; 
+   border: none;
+   border-radius: 20px;
+   background-color: yellow;
+   color: black;
+   margin-left: 15px;
+   position: absolute;
+}
+
+#our-purpose{
+    clear: both;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#our-purpose img{
+    width: 100%;
+}
+
+.purpose{
+    width: 50%;
+}
+
+.purpose h1{
+    font-size: 40px;
+    padding: 20px;
+    color: yellow;
+}
+
+.charitable{
+    padding-top: 30px;
+}
+
+.action{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#mission{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#mission h3{
+      color: yellow;
+      padding: 20px;
+}
+
+#mission p{
+    padding: 10px;
+    text-align: justify;
+}
+
+#mission button{
+   padding: 15px; 
+   border: none;
+   border-radius: 20px;
+   background-color: yellow;
+   color: black;
+   margin: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.footer li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.footer p{
+    padding: 10px;
+}
+
+.form-area input{
+    max-width: 200px;
+    padding: 10px 10px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.form-area button{
+   padding: 15px; 
+   border: none;
+   border-radius: 20px;
+   background-color: yellow;
+   color: black;
+   margin-top: 10px;
+}
