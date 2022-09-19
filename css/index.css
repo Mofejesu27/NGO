@@ -79,6 +79,7 @@ nav button{
 #our-purpose{
     clear: both;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
     padding: 30px;
@@ -104,12 +105,14 @@ nav button{
 
 .action{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
 }
 
 #mission{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
     padding: 30px;
@@ -167,4 +170,38 @@ nav button{
    background-color: yellow;
    color: black;
    margin-top: 10px;
+}
+
+@media screen and (max-width:600px) {
+ nav button{
+     display: none;
+    }
+    .text-content{
+        height: auto;
+    }
+
+    #our-purpose > div{
+        width: 55%;
+    }
+
+    #our-purpose img{
+        width: 100%;
+    }
+
+    .purpose{
+        width: 100%;
+        padding: 0;
+    }
+
+    .action{
+        width: 55%;
+    }
+
+    #mission{
+        width: 100%;
+    }
+
+    #footer > div{
+        width: 40%;
+    }
 }
